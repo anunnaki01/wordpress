@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/consultingquantu/public_html/wordpress
+    - /bin/cp -R * $DEPLOYPATH
